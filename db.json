@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "title": "Project Initiation and Planning",
+      "isComplete": false,
+      "id": "6"
+    },
+    {
+      "title": "Code Review and Refactoring",
+      "isComplete": true,
+      "id": "72bd"
+    },
+    {
+      "title": "Lesson Plan Development: Math Module",
+      "isComplete": false,
+      "id": "71e6"
+    },
+    {
+      "id": "dd95",
+      "title": "Daily Exercise Routine",
+      "isComplete": false
+    },
+    {
+      "id": "6331",
+      "title": "Meeting Coordination and Scheduling",
+      "isComplete": false
+    },
+    {
+      "id": "3cee",
+      "title": "Venue Selection and Booking",
+      "isComplete": true
+    }
+  ]
+}

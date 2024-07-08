@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 140px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title-input {
+  height: 40px;
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  background-color: rgb(237, 233, 233);
+  font-size: 20px;
+}
+
+.show-todo-button,
+.add-edit-btn {
+  width: 70%;
+  margin: auto;
+}
+
+.add-edit-btn:hover,
+.show-todo-button:hover {
+  background-color: #848484;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  width: 80%;
+  margin: auto;
+  border: 1px solid rgb(85, 85, 86);
+}
+
+.card {
+  background-color: #f2f1f1;
+  border: 1px solid #d1d0d0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+button {
+  border: 1px solid rgb(85, 85, 86);
+  background-color: white;
+  width: 80px;
+  height: 35px;
+  margin: 10px;
+}
+
+.card_button {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.card_button button:hover {
+  background-color: #848484;
+}
+
+.card_button button:active {
+  background-color: #3c3d3e;
+}
+
+
+input[type="checkbox"] {
+  appearance: none;
+  background-color: #f9f9f9;
+  border: 1px solid rgb(85, 85, 86);
+  border-radius: 4px;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="checkbox"]:checked {
+  background-image: url("/public/Images/checked.jfif");
+  background-size: cover;
+  background-position: center;
+}
+
+.error-message{
+  margin: auto;
+  color: red;
+}
